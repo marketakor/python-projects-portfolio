@@ -1,22 +1,21 @@
 ## csv_analyzer_lite
 
-Jednoduchý Python program pro analýzu CSV souborů – načítá data a počítá základní statistiky.
+A simple Python program for analyzing CSV files – it loads data and calculates basic statistics.
 
-### Spuštění a testy
+### Running and Testing
 
-#### Klonování repozitáře a přechod do složky projektu
+```bash
 
+# Clone the repository and navigate to the project folder
 git clone https://github.com/marketakor/csv_analyzer_lite.git
-
 cd csv_analyzer_lite
 
-#### Spuštění hlavního skriptu
-python run.py
+# Run the main script
+python main.py
 
-#### Spuštění testů
-Linux / Mac
+# Run tests (Linux / Mac)
 PYTHONPATH=. pytest tests/
 
-Windows (PowerShell)
+# Run tests (Windows PowerShell)
 $env:PYTHONPATH="."
 pytest tests/
