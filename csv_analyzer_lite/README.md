@@ -7,6 +7,7 @@ Jednoduchý Python program pro analýzu CSV souborů – načítá data a počí
 #### Klonování repozitáře a přechod do složky projektu
 
 git clone https://github.com/marketakor/csv_analyzer_lite.git
+
 cd csv_analyzer_lite
 
 #### Spuštění hlavního skriptu
